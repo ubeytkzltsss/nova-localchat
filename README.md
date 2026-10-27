@@ -16,15 +16,15 @@ Tüm veriler **sunucu tarafında** tutulur — veritabanı, tablolar ve klasörl
 
 | Giriş | Sohbet |
 |---|---|
-| ![Giriş](docs/giris.jpg) | ![Sohbet](docs/sohbet.jpg) |
+| ![Giriş](giris.jpg) | ![Sohbet](sohbet.jpg) |
 
 | GIF arama (Tenor) | Clicker oyunu |
 |---|---|
-| ![GIF arama](docs/gif-arama.jpg) | ![Oyun](docs/oyun.jpg) |
+| ![GIF arama](gif-arama.jpg) | ![Oyun](oyun.jpg) |
 
 | Yönetim paneli |
 |---|
-| ![Yönetim paneli](docs/admin.jpg) |
+| ![Yönetim paneli](admin.jpg) |
 
 ---
 
@@ -207,7 +207,6 @@ novachat/
 ├── 404.php            Hata sayfası
 ├── README.md          Bu dosya
 ├── LICENSE            MIT lisansı
-├── YAYINLAMA.md       GitHub'da yayınlama rehberi (adım adım)
 ├── docs/
 │   ├── social-preview.png   Sosyal önizleme görseli (1280×640)
 │   ├── giris.jpg · sohbet.jpg · gif-arama.jpg · oyun.jpg · admin.jpg
@@ -301,32 +300,6 @@ Sunucunun `tenor.com`'a erişimi olmalı. Panelden GIF özelliği kapalıysa da 
 Hayır. Güvenlik başlıkları PHP tarafından da gönderilir.
 
 ---
-
-## 📦 GitHub'a yükleme
-
-```bash
-git init
-git add .
-git commit -m "NovaChat: sohbet + clicker oyunu"
-git branch -M main
-git remote add origin https://github.com/<kullanici-adin>/novachat.git
-git push -u origin main
-```
-
-> 📖 **Hiç GitHub kullanmadıysan:** repo açma, açıklama/etiket girme, sosyal önizleme görseli,
-> sürüm (release) yayınlama, paylaşım metinleri ve sorun giderme adımları tek tek
-> **[YAYINLAMA.md](YAYINLAMA.md)** dosyasında anlatılıyor.
-
-`.gitignore` zaten yüklü gelir: yüklenen kullanıcı dosyaları, loglar ve editör klasörleri
-repoya eklenmez. `config.php` kutudan çıktığı gibi **kişisel bilgi içermez** (XAMPP varsayılanları);
-canlı sunucuya kurarken gerçek şifreni oraya yazarsan `config.php` satırını da `.gitignore`'a ekle.
-Repo açıklaması için öneri:
-
-> Şifresiz (IP tabanlı) girişli, canlı Tenor GIF aramalı Türkçe sohbet + sonsuz clicker oyunu.
-> PHP · MySQL · Apache · XAMPP
-
-**Önerilen topics (etiketler):** `php` `mysql` `chat` `xampp` `clicker-game` `turkish`
-`self-hosted` `tenor` `vanilla-js` `no-framework`
 
 ---
 
