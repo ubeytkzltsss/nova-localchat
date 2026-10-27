@@ -316,5 +316,9 @@ MIT License · Copyright (c) 2026 NovaChat contributors
 Tenor'un kendi kullanım koşullarına tabidir. Emoji'ler işletim sisteminin yazı tipinden gelir.
 
 <p align="center">
+<img width="100" height="99" alt="resim" src="https://github.com/user-attachments/assets/7e14465d-bdef-421e-bc16-199a8646792e" />
+</p>
+
+<p align="center">
   Developed by <b>Ubeyt</b>.
 </p>
