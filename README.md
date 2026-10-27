@@ -315,4 +315,4 @@ MIT License · Copyright (c) 2026 NovaChat contributors
 Üçüncü taraf içerik: GIF'ler çalışma anında **Tenor**'dan gelir ve projede barındırılmaz;
 Tenor'un kendi kullanım koşullarına tabidir. Emoji'ler işletim sisteminin yazı tipinden gelir.
 
-**Hazır! 🍪**
+Developed by **Ubeyt :3**
