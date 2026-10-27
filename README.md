@@ -8,7 +8,7 @@ tek genel sohbet odası, dosya & GIF paylaşımı, sonsuz clicker oyunu ve gizli
 Tüm veriler **sunucu tarafında** tutulur — veritabanı, tablolar ve klasörler ilk açılışta
 **kendiliğinden** oluşur. phpMyAdmin'de elle hiçbir şey yapmazsın.
 
-![NovaChat](docs/social-preview.png)
+![NovaChat](social-preview.png)
 
 ---
 
